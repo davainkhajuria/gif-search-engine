@@ -1,11 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,500&display=swap');
 body {
 	width: 80%;
 	max-width: 1024px;
 	margin: 0 auto;
+	background-color:  #a88dc9;
 }
-
+.heading{
+	font-family: 'Roboto Mono', monospace;
+	font-size: 50px;
+	text-align: center;
+	color: #3a1a60;
+	
+}
 .container-padding50 {
-	padding-top: 50px;
+	padding-top: 7px;
 }
 
 .container-textinput {
@@ -28,7 +36,19 @@ body {
 	border: 1px solid green;
 	border-radius: 5px;
 }
-
+.red{
+	margin-top: 2px;
+    background-color: red;
+    float: right;
+    margin-right: 55px;
+    width: 10%;
+    padding: 3px;
+    color: white;
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    border: 1px solid green;
+    border-radius: 5px;
+}
 .container-image {
 	width: 30%;
 	display: block;
