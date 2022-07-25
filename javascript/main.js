@@ -29,7 +29,7 @@ clear.addEventListener("click", function(){
 
 // do the data stuff  with API
 function gifSearch(userinput){
-    var url = "http://api.giphy.com/v1/gifs/search?q=" + userinput + "&api_key=XXvc7rhCXDfiRnVuY47DJjm4zvaD4KNi";
+    var url = "https://api.giphy.com/v1/gifs/search?q=" + userinput + "&api_key=XXvc7rhCXDfiRnVuY47DJjm4zvaD4KNi";
 
     // AJAX Request
     var GiphyAJAXCall = new XMLHttpRequest();
